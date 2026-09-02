@@ -1,26 +1,30 @@
 # HACKIN_ETICO
 
-Colección de scripts Python de utilidades relacionadas con seguridad y monitoreo de sistemas.
+Collection of Python utility scripts related to security and system monitoring.
 
 ## Scripts
 
-- **fernet_encryptor.py** — Encripta y desencripta texto o archivos usando Fernet (cryptography).
-- **password_validator.py** — Valida si una contraseña es segura o débil según varios criterios.
-- **port_checker.py** — Verifica qué puertos están en uso o disponibles en el sistema.
-- **top_memory_processes.py** — Muestra los procesos que más RAM están consumiendo en el sistema.
+- **fernet_encryptor.py** — Encrypts and decrypts text or files using Fernet (cryptography).
+- **password_validator.py** — Checks whether a password is strong or weak based on several criteria.
+- **port_checker.py** — Checks which ports are in use or available on the system.
+- **top_memory_processes.py** — Shows the processes consuming the most RAM on the system.
 
-## Requisitos
+## Requirements
 
-```bash
+\```bash
 pip install cryptography psutil --break-system-packages
-```
+\```
 
-## Uso
+## Usage
 
-```bash
+\```bash
 python3 fernet_encryptor.py
 python3 password_validator.py
 python3 port_checker.py
 python3 top_memory_processes.py
-```
+\```
 
+
+```bash
+pip install cryptography psutil --break-system-packages
+```
