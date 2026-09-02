@@ -11,20 +11,20 @@ Collection of Python utility scripts related to security and system monitoring.
 
 ## Requirements
 
-\```bash
-pip install cryptography psutil --break-system-packages
-\```
-
-## Usage
-
-\```bash
-python3 fernet_encryptor.py
-python3 password_validator.py
-python3 port_checker.py
-python3 top_memory_processes.py
-\```
-
+bash
 
 ```bash
 pip install cryptography psutil --break-system-packages
 ```
+
+## Usage
+
+bash
+
+```bash
+python3 fernet_encryptor.py
+python3 password_validator.py
+python3 port_checker.py
+python3 top_memory_processes.py
+```
+
